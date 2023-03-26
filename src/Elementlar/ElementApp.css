@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #abcd22;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+  
+  }
+  
+  .App{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 3px 0px 2px .5px rgba(0, 0, 0, 0.33) ,  3px 0px 2px 1px rgba(0, 0, 0, 0.264),  3px 0px 2px 1.5px rgba(0, 0, 0, 0.23);
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }

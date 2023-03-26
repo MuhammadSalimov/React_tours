@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Container{
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-weight: 700;
+}
+
+.Fullwidth{
+    width: 100%;
+    text-align: center;
+    /* padding: 20px; */
+    color: #000;
+    font-size: 100px;
+    font-weight: 600;
+}
+
+.dec{
+    width: 20%;
+    height: 40px;
+    color: green;
+    border: 3px solid rgb(0, 128, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.inc{
+    width: 20%;
+    height: 40px;
+    color: red;
+    border: 3px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+.reset{
+    width: 45%;
+    height: 40px;
+    color: red;
+    border: 3px solid rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+}
